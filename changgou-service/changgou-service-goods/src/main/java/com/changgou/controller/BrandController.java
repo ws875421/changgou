@@ -2,6 +2,7 @@ package com.changgou.controller;
 
 import com.changgou.goods.pojo.Brand;
 import com.changgou.service.BrandService;
+import com.github.pagehelper.PageInfo;
 import entity.Result;
 import entity.StatusCode;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,4 +44,27 @@ public class BrandController {
         return new Result(true, StatusCode.OK, "新增成功");
     }
 
+    @DeleteMapping(value = "/{id}")
+    public Result deleteBrand(@PathVariable(value = "id") Integer id) {
+        brandService.deleteBrand(id);
+        return new Result(true, StatusCode.OK, "刪除成功");
+    }
+
+    @PostMapping(value = "/search")
+    public Result<List<Brand>> findList(@RequestBody Brand brand) {
+        List<Brand> brandList = brandService.findList(brand);
+        return new Result<List<Brand>>(true, StatusCode.OK, "條件查詢", brandList);
+    }
+
+    @GetMapping(value = "/search/{page}/{size}")
+    public Result<PageInfo<Brand>> findPage(@PathVariable(value = "page") Integer page, @PathVariable(value = "size") Integer size) {
+        PageInfo<Brand> pageInfo = brandService.findPage(page, size);
+        return new Result<PageInfo<Brand>>(true, StatusCode.OK, "分頁查詢!", pageInfo);
+    }
+
+    @PostMapping(value = "/search/{page}/{size}")
+    public Result<PageInfo<Brand>> findPage(@RequestBody Brand brand, @PathVariable(value = "page") Integer page, @PathVariable(value = "size") Integer size) {
+        PageInfo<Brand> pageInfo = brandService.findPage(brand, page, size);
+        return new Result<PageInfo<Brand>>(true, StatusCode.OK, "條件分頁查詢", pageInfo);
+    }
 }
