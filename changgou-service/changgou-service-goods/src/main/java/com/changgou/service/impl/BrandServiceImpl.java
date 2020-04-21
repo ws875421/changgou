@@ -77,26 +77,7 @@ public class BrandServiceImpl implements BrandService {
      */
     @Override
     public List<Brand> findList(Brand brand) {
-        Example example = new Example(Brand.class);
-        //條件構造緝
-        Example.Criteria criteria = example.createCriteria();
-        if (null != brand) {
-            //根據名子模糊查詢 where name like '%蘋果%'
-            String name = brand.getName();
-            if (!StringUtils.isBlank(name)) {
-                /**
-                 * 1:Brand 屬性名
-                 * 2:搜尋的條件
-                 */
-                criteria.andLike("name", "%" + name + "%");
-            }
-            //根據字首搜尋 and letter='A'
-            String letter = brand.getLetter();
-            if (!StringUtils.isBlank(letter)) {
-                criteria.andEqualTo("letter", letter);
-            }
-        }
-
+        Example example = createExample(brand);
         return brandMapper.selectByExample(example);
     }
 
@@ -133,25 +114,7 @@ public class BrandServiceImpl implements BrandService {
     public PageInfo<Brand> findPage(Brand brand, Integer page, Integer size) {
         PageHelper.startPage(page, size);
 
-        Example example = new Example(Brand.class);
-        //條件構造緝
-        Example.Criteria criteria = example.createCriteria();
-        if (null != brand) {
-            //根據名子模糊查詢 where name like '%蘋果%'
-            String name = brand.getName();
-            if (!StringUtils.isBlank(name)) {
-                /**
-                 * 1:Brand 屬性名
-                 * 2:搜尋的條件
-                 */
-                criteria.andLike("name", "%" + name + "%");
-            }
-            //根據字首搜尋 and letter='A'
-            String letter = brand.getLetter();
-            if (!StringUtils.isBlank(letter)) {
-                criteria.andEqualTo("letter", letter);
-            }
-        }
+        Example example = createExample(brand);
 
         List<Brand> brands = brandMapper.selectByExample(example);
 
@@ -159,4 +122,31 @@ public class BrandServiceImpl implements BrandService {
     }
 
 
+    public Example createExample(Brand brand) {
+        Example example = new Example(Brand.class);
+        Example.Criteria criteria = example.createCriteria();
+        if (brand != null) {
+            // 品牌名稱，根據名子模糊查詢 where name like '%蘋果%'
+            if (!StringUtils.isEmpty(brand.getName())) {
+                criteria.andLike("name", "%" + brand.getName() + "%");
+            }
+            // 圖片地址
+            if (!StringUtils.isEmpty(brand.getImage())) {
+                criteria.andLike("image", "%" + brand.getImage() + "%");
+            }
+            // 品牌的首字母，根據字首搜尋 and letter='A'
+            if (!StringUtils.isEmpty(brand.getLetter())) {
+                criteria.andLike("letter", "%" + brand.getLetter() + "%");
+            }
+            // 品牌id
+            if (null != brand.getId()) {
+                criteria.andEqualTo("id", brand.getId());
+            }
+            // 排序
+            if (null != brand.getSeq()) {
+                criteria.andEqualTo("seq", brand.getSeq());
+            }
+        }
+        return example;
+    }
 }
