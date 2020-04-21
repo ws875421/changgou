@@ -16,6 +16,7 @@ public class BrandServiceImpl implements BrandService {
 
     /**
      * 查詢所有
+     *
      * @return
      */
     @Override
@@ -26,5 +27,19 @@ public class BrandServiceImpl implements BrandService {
     @Override
     public Brand findById(Integer id) {
         return brandMapper.selectByPrimaryKey(id);
+    }
+
+    @Override
+    public void addBrand(Brand brand) {
+        brandMapper.insertSelective(brand);
+    }
+
+    /**
+     * 組裝SQL語句忽略空直
+     * @param brand
+     */
+    @Override
+    public void updateBrand(Brand brand) {
+        brandMapper.updateByPrimaryKeySelective(brand);
     }
 }

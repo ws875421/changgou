@@ -14,4 +14,7 @@ public interface BrandService {
 
     Brand findById(Integer id);
 
+    void addBrand(Brand brand);
+
+    void updateBrand(Brand brand);
 }
