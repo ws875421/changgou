@@ -17,6 +17,7 @@
 
     <modules>
         <module>changgou-service-goods</module>
+        <module>changgou-service-user</module>
     </modules>
 
     <!--依赖-->

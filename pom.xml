@@ -11,7 +11,7 @@
 
     <description>商城父工程</description>
     <modules>
-        <module>changgou-gateway</module>
+
         <module>changgou-service</module>
         <module>changgou-web</module>
         <module>changgou-eureka</module>
@@ -19,6 +19,7 @@
         <module>changgou-common-db</module>
         <module>changgou-service/changgou-service-goods</module>
         <module>changgou-service-api</module>
+        <module>changgou-gateway</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -56,6 +57,11 @@
             <artifactId>springfox-swagger2</artifactId>
             <version>2.6.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-netflix-eureka-client</artifactId>
+        </dependency>
+
 
 
     </dependencies>

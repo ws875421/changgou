@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="changgou-common-db" />
-        <module name="changgou-eureka" />
-        <module name="changgou-service-goods" />
-        <module name="changgou-common" />
+        <module name="changgou-service-user" />
         <module name="changgou-service-goods-api" />
+        <module name="changgou-service-user-api" />
+        <module name="changgou-common-db" />
+        <module name="changgou-common" />
+        <module name="changgou-gateway-web" />
+        <module name="changgou-service-goods" />
+        <module name="code-template" />
+        <module name="changgou-eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,12 +22,16 @@
       <module name="changgou-common-db" target="1.8" />
       <module name="changgou-eureka" target="1.8" />
       <module name="changgou-gateway" target="1.8" />
+      <module name="changgou-gateway-web" target="1.8" />
       <module name="changgou-parent" target="1.8" />
       <module name="changgou-service" target="1.8" />
       <module name="changgou-service-api" target="1.8" />
       <module name="changgou-service-goods" target="1.8" />
       <module name="changgou-service-goods-api" target="1.8" />
+      <module name="changgou-service-user" target="1.8" />
+      <module name="changgou-service-user-api" target="1.8" />
       <module name="changgou-web" target="1.8" />
+      <module name="code-template" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -31,9 +39,13 @@
       <module name="changgou-common" options="-parameters" />
       <module name="changgou-common-db" options="-parameters" />
       <module name="changgou-eureka" options="-parameters" />
+      <module name="changgou-gateway" options="-parameters" />
+      <module name="changgou-gateway-web" options="-parameters" />
       <module name="changgou-service-api" options="-parameters" />
       <module name="changgou-service-goods" options="-parameters" />
       <module name="changgou-service-goods-api" options="-parameters" />
+      <module name="changgou-service-user" options="-parameters" />
+      <module name="changgou-service-user-api" options="-parameters" />
     </option>
   </component>
 </project>
