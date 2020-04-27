@@ -20,6 +20,7 @@
         <module>changgou-service/changgou-service-goods</module>
         <module>changgou-service-api</module>
         <module>changgou-gateway</module>
+        <module>changgou-user-oauth</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

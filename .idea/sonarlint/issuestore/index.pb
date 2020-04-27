@@ -69,3 +69,17 @@ G
 changgou-common/pom.xml,1\6\16475a85c2e8608a66ae29779f450aa8ad26d8ab
 Œ
 \changgou-gateway/changgou-gateway-web/src/main/java/com/changgou/filter/AuthorizeFilter.java,1\f\1f81c137b6d3f005e0f91a4af330487bbefcc0de
+‚
+Rchanggou-gateway/changgou-gateway-web/src/main/java/com/changgou/util/JwtUtil.java,8\8\883838cbb8bb299d66771862d5e749130ed43a23
+K
+changgou-user-oauth/pom.xml,b\c\bcefe2eb33ec19a140e783069d78383f7add7dda
+“
+cchanggou-service-api/changgou-service-user-api/src/main/java/com/changgou/user/feign/UserFeign.java,b\7\b79ebe008d82373866fe5568a268669d07fb3240
+‡
+Wchanggou-user-oauth/src/main/java/com/changgou/oauth/config/UserDetailsServiceImpl.java,8\e\8ec74ce0ffa2c1744e20b5685947368bff645d3c
+ƒ
+Schanggou-user-oauth/src/main/java/com/changgou/oauth/controller/AuthController.java,a\5\a573d00f89db1762eb21f97c765da0c0317b42b8
+˜
+hchanggou-service-api/changgou-service-user-api/src/main/java/com/changgou/user/pojo/feign/UserFeign.java,c\2\c2e23a762587cca46a4a6a3d3d724c7234a3c9cb
+t
+Dchanggou-user-oauth/src/main/java/com/changgou/OAuthApplication.java,4\d\4dfb681cecc2e7410e6e51f3f69920dd07f5517b

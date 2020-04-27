@@ -1,11 +1,9 @@
 
-t
-java:S2293R"YReplace the type specification in this constructor call with the diamond operator ("<>").(…ñÕÍşÿÿÿÿ
 u
-java:S2293œ"YReplace the type specification in this constructor call with the diamond operator ("<>").(§û­½úÿÿÿÿ
-u
-java:S2293‘"YReplace the type specification in this constructor call with the diamond operator ("<>").(‰ëÏªıÿÿÿÿ
-M
-java:S1128"+Remove this unused import 'org.junit.Test'.(ùøèøÿÿÿÿ8Àµû°š.
+java:S2293›"YReplace the type specification in this constructor call with the diamond operator ("<>").(§û­½úÿÿÿÿ
 t
-java:S2293^"YReplace the type specification in this constructor call with the diamond operator ("<>").(§û­½úÿÿÿÿ
+java:S2293]"YReplace the type specification in this constructor call with the diamond operator ("<>").(§û­½úÿÿÿÿ
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‰ëÏªıÿÿÿÿ
+t
+java:S2293Q"YReplace the type specification in this constructor call with the diamond operator ("<>").(…ñÕÍşÿÿÿÿ
