@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/changgou-user-oauth/changgou-user-oauth.iml" filepath="$PROJECT_DIR$/changgou-user-oauth/changgou-user-oauth.iml" />
       <module fileurl="file://$PROJECT_DIR$/changgou-web/changgou-web.iml" filepath="$PROJECT_DIR$/changgou-web/changgou-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/code-template-master/code-template.iml" filepath="$PROJECT_DIR$/code-template-master/code-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springSecurity/springSecurity.iml" filepath="$PROJECT_DIR$/springSecurity/springSecurity.iml" />
     </modules>
   </component>
 </project>

@@ -1,9 +1,13 @@
 
-Q	java:S1251"<This block of commented-out lines of code should be removed.(Ùß©¬
-V	java:S125<"<This block of commented-out lines of code should be removed.(–ğç¿ûÿÿÿÿ
-]
-java:S1128"BRemove this unused import 'com.netflix.discovery.converters.Auto'.(İ¼’²ùÿÿÿÿ
-~
-java:S1488@"cImmediately return this expression instead of assigning it to the temporary variable "userDetails".(‚‚ú…ùÿÿÿÿ
 ©
-java:S1130'"’Remove the declaration of thrown exception 'org.springframework.security.core.userdetails.UsernameNotFoundException' which is a runtime exception.(ÌÃŸ
+java:S1130&"’Remove the declaration of thrown exception 'org.springframework.security.core.userdetails.UsernameNotFoundException' which is a runtime exception.(ÌÃŸ
+
+java:S1128"_Remove this unused import 'org.springframework.security.core.authority.SimpleGrantedAuthority'.(– ‹Ìûÿÿÿÿ8çŒ¿Ó›.
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8çŒ¿Ó›.
+X	java:S1252"<This block of commented-out lines of code should be removed.(œ‰Õ8çŒ¿Ó›.
+y
+java:S1488@"cImmediately return this expression instead of assigning it to the temporary variable "userDetails".(Éîû
+l
+java:S1128"ORemove this unused import 'org.springframework.security.core.GrantedAuthority'.(½Á±ÿ8çŒ¿Ó›.
+]	java:S125C"<This block of commented-out lines of code should be removed.(‰••òûÿÿÿÿ8çŒ¿Ó›.

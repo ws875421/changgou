@@ -1,7 +1,8 @@
 
-T
-java:S3752.">Add a "method" parameter to this "@RequestMapping" annotation.(ô¸èÉ
-`	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(šŸéÿÿÿÿÿ
-[	java:S1123"FDefine and throw a dedicated exception instead of using a generic one.(ŞÎ¯¼
-Y
-java:S3752'">Add a "method" parameter to this "@RequestMapping" annotation.(–ãîÊûÿÿÿÿ
+m	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞËæ8òë­Ò›.
+g	java:S1122"FDefine and throw a dedicated exception instead of using a generic one.(‡ñ§¨úÿÿÿÿ8òë­Ò›.
+b	java:S1125"FDefine and throw a dedicated exception instead of using a generic one.(ÛîŠô8òë­Ò›.
+Q
+java:S37400"/Provide the parametrized type for this generic.(óš°âúÿÿÿÿ8„Øõ›.
+Q
+java:S3740?"/Provide the parametrized type for this generic.(â¤÷úÿÿÿÿ8„Øõ›.

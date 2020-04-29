@@ -1,0 +1,13 @@
+
+K
+java:S1128"6Remove this unused import 'com.alibaba.fastjson.JSON'.(Ö¢å$
+`	java:S1123"FDefine and throw a dedicated exception instead of using a generic one.(À‚‘½úÿÿÿÿ
+`	java:S112e"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112i"FDefine and throw a dedicated exception instead of using a generic one.(·‡µ•ûÿÿÿÿ
+[	java:S112E"FDefine and throw a dedicated exception instead of using a generic one.(»“´ç
+Z
+java:S25832"DChange this condition so that it does not always evaluate to "false"(‚‚ÔÉ
+Q
+java:S3740^"/Provide the parametrized type for this generic.(÷¬¹ôûÿÿÿÿ8…Øõ›.
+L
+java:S3740a"/Provide the parametrized type for this generic.(íäè8…Øõ›.
