@@ -103,3 +103,13 @@ Xchanggou-user-oauth/src/main/java/com/changgou/oauth/controller/UserLoginContro
 Mchanggou-user-oauth/src/main/java/com/changgou/oauth/service/AuthService.java,9\2\9266afc21f9955ef18c13322bd71eeac33ee9927
 †
 Vchanggou-user-oauth/src/main/java/com/changgou/oauth/service/impl/AuthServiceImpl.java,c\2\c278b1bd314ca2536be2996fe4ec0decdc8ca72f
+w
+GspringSecurity/src/main/java/com/spring/Controller/LoginController.java,8\a\8aaed6084f6234c04f56c8a3f71e420655f6590d
+m
+=springSecurity/src/main/java/com/spring/config/Webconfig.java,8\e\8e0bd97682e222b57042a3616cc2cbf2d9bef5ca
+F
+springSecurity/pom.xml,8\2\820003165ba5942cc4f1e3b9fef733509f0aeb44
+j
+:springSecurity/src/main/java/com/spring/SpringBootApp.java,4\d\4dc7303b1a964d75a9b2400759ee4fb3b72fbfd7
+u
+EspringSecurity/src/main/java/com/spring/config/WebSecurityConfig.java,d\1\d1ecf3f1ce93d16048f9fc4829b7fa8a3b5b70a9

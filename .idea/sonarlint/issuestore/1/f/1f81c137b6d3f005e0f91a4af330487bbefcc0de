@@ -1,9 +1,9 @@
 
-\
-java:S18546":Remove this useless assignment to local variable "claims".(‰©™—ûÿÿÿÿ8°Çù±š.
-E
-java:S11488"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8°Çù±š.
 M
 java:S14816"+Remove this unused "claims" local variable.(‰©™—ûÿÿÿÿ8°Çù±š.
+E
+java:S11488"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8°Çù±š.
+\
+java:S18546":Remove this useless assignment to local variable "claims".(‰©™—ûÿÿÿÿ8°Çù±š.
 {
 java:S1488%"^Immediately return this expression instead of assigning it to the temporary variable "filter".(Ï¿Ý¯8°Çù±š.

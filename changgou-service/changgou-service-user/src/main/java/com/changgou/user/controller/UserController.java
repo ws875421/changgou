@@ -47,7 +47,7 @@ public class UserController {
             info.put("success","SUCCESS");
             info.put("username",username);
             //生成令牌
-            String jwt = JwtUtil.createJWT(UUID.randomUUID().toString(), JSON.toJSONString(info),null);
+                String jwt = JwtUtil.createJWT(UUID.randomUUID().toString(), JSON.toJSONString(info),null);
             return new Result(true,StatusCode.OK,"登入成功！",jwt);
         }
         return new Result(false, StatusCode.LOGINERROR, "帳號或者密碼錯誤！");

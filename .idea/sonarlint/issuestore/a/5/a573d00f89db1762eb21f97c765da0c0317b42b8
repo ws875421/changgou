@@ -1,8 +1,8 @@
 
-m	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞËæ8òë­Ò›.
-g	java:S1122"FDefine and throw a dedicated exception instead of using a generic one.(‡ñ§¨úÿÿÿÿ8òë­Ò›.
 b	java:S1125"FDefine and throw a dedicated exception instead of using a generic one.(ÛîŠô8òë­Ò›.
+g	java:S1122"FDefine and throw a dedicated exception instead of using a generic one.(‡ñ§¨úÿÿÿÿ8òë­Ò›.
 Q
 java:S37400"/Provide the parametrized type for this generic.(óš°âúÿÿÿÿ8„Øõ›.
+m	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞËæ8òë­Ò›.
 Q
 java:S3740?"/Provide the parametrized type for this generic.(â¤÷úÿÿÿÿ8„Øõ›.
